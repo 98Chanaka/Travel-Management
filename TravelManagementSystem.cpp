@@ -35,17 +35,17 @@ class Customers
         ofstream out("old-customers.txt", ios::app);
 
         {
-            cout << "Enter Customer ID:- ";
+            cout << "Enter Customer ID: ";
             cin >> cusID;
-            cout << "Enter Name:- ";
+            cout << "Enter Name: ";
             cin >> name;
-            cout << "Enter Age :- ";
+            cout << "Enter Age : ";
             cin >> age;
-            cout << "Enter Mobile Number :- ";
+            cout << "Enter Mobile Number : ";
             cin >> mobileNo;
-            cout << "Enter Gender :- ";
+            cout << "Enter Gender : ";
             cin >> gender;
-            cout << "Enter Address :- ";
+            cout << "Enter Address : ";
             cin >> address;
         
         }
