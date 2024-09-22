@@ -525,6 +525,6 @@ void menu()
 int main()
 {
     ManageMenu startObj;
-    //cout << "hello World"<<endl;
+    cout << "hello World"<<endl;
     return 0;
 }
